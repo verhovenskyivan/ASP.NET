@@ -11,8 +11,15 @@ html {
 html {
   position: relative;
   min-height: 100%;
+  color:#ffffff;
 }
 
 body {
   margin-bottom: 60px;
+  background: #05010a;
+}
+footer {
+    text-align:center;
+    color:#ffffff;
+    
 }
