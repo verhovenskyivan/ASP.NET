@@ -1,12 +1,6 @@
-﻿@model Contact
+﻿
 @{
 	ViewData["Title"] = "Контактная информация";
 }
 
 <h1> Страница с контактной информацией</h1>
-
-<form methgod="post" asp-controller="Contacts" asp-action="Check">
-	<label asp-for="Name"></label>
-	<input asp-for="Name" />
-	<span asp-validation-for="Name"></span>
-</form>

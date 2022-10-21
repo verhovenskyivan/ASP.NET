@@ -4,7 +4,7 @@ namespace ASP.NET.Controllers
 {
     public class ContactController : Controller
     {
-        public IActionResult About()                    
+        public IActionResult Index()                    
         {
             return View();
         }
